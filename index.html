@@ -300,7 +300,7 @@
 		  <h4>Language Maps</h4>
 		  
 		  <div class="req" id="bp-lang-maps">
-			  <p class="advisement">Use a language map to store multiple language versions of a single field inside of a document. For [WebIDL]-defined data structures, use <a href="#language-map-idl"><code>LanguageMap</code></a> to define the field.</p>
+			  <p class="advisement">Use a language map to store multiple language versions of a single field inside of a document. For [[WebIDL]]-defined data structures, use <a href="#language-map-idl"><code>LanguageMap</code></a> to define the field.</p>
 		  </div>
 		  
 		  <p>The world is not monolingual. Having documents that contain only a single language would mean providing many iterations of the document, one for each language, in order to localize the content. This also might require language negotiation when requesting the content.</p>
@@ -1578,7 +1578,7 @@ myDataString:          "978-0-123-4567-X"^^i18n:_ltr          // language-neutra
 	
 	<p>To be effective, specification authors should consistently use the same formats and data structures so that the majority of data formats are interoperable (in other words, so that data can be copied between many formats without having to apply additional processing). We recommend adoption of <kbd>Localizable</kbd> for <a href="#single-linguistic-field">Single-Language Localizable</a> text fields and <kbd>LanguageMap</kbd> for <a href="#language-maps">Language Maps</a>.</p>
 	
-    <p>By defining the language and direction in a WebIDL dictionary form, specifications can incorporate language and direction metadata for a given String value succinctly. Implementations can recyle the dictionary implementation straightforwardly.</p>
+    <p>By defining the language and direction in a WebIDL dictionary form, specifications can incorporate language and direction metadata for a given String value succinctly. Implementations can recycle the dictionary implementation straightforwardly.</p>
     
 <h4 id="language-tag-typedef-idl"><code>LanguageTag</code> typedef</h4>
 <pre class="def idl" data-dfn-for="LanguageTag" data-link-for="LanguageTag">
